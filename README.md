@@ -2,7 +2,7 @@
 Blog site I made using expressjs and ejs.
 I had experience about router and ejs while doing the project.
 
-## Getting Started
+## SETUP
 ```
 npm install
 npm install express
