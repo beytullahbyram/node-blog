@@ -73,35 +73,3 @@ app.use((req, res) => {
     })
 })
 
-
-
-
-//add sample data
-// app.get('/add', (req, res) => {
-//     const blog = new Blog({
-//         title: 'yeni yazi',
-//         short: 'kısa',
-//         long: 'uzun'
-//     })
-//     blog.save()
-//         .then((result) => {
-//             res.send(result)
-//         })
-//         .catch((err) => {
-//             console.log(err);
-//         })
-// })
-
-// app.get('/all',(req,res)=>{
-//     Blog.find()
-//         .then((result)=>{
-//             res.send(result)
-//         })
-// })
-
-// app.get('/single',(req,res)=>{
-//     Blog.findById('62576702397e7ada36b30621')
-//         .then((result)=>{
-//             res.send(result)
-//         })
-// })
